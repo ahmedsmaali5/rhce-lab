@@ -1,0 +1,12 @@
+clone the repo
+install vagrant
+cd to_repo_folder
+vagrant up
+
+
+to check VMs status: vagrant status
+to shutdown VMs status: vagrant halt
+to ssh to a VM: vagrant ssh <vm> # ansible1 or ansible2
+
+
+
