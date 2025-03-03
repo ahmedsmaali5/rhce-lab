@@ -6,14 +6,18 @@ This repository provides an automated way to set up an Ansible lab environment f
 Ensure you have the following installed on your system:
 - [Vagrant](https://developer.hashicorp.com/vagrant/docs/installation)
 - [VirtualBox](https://www.virtualbox.org/)
-- [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) (on your control machine)
+- [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) (on your local machine)
+
+## Architecture
+
+![screenshot](media/img/ansible-lab.png)
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone https://github.com/ahmedsmaali5/rhce-lab.git
+cd rhce-lab
 ```
 
 ### 2. Start the Virtual Machines
@@ -52,6 +56,7 @@ If everything is set up correctly, you should see a successful response from bot
 ## Notes
 - This lab is designed for RHCE exam preparation and follows best practices for setting up an Ansible control node.
 - You can modify the Vagrantfile to add more nodes if needed.
+- Used box is [centos8] (https://portal.cloud.hashicorp.com/vagrant/discover/centos/8) you can change it if needed.
 
-Happy learning!
+Happy learning & Good luck on your exam!
 
