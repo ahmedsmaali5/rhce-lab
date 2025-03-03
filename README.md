@@ -56,7 +56,7 @@ If everything is set up correctly, you should see a successful response from bot
 ## Notes
 - This lab is designed for RHCE exam preparation and follows best practices for setting up an Ansible control node.
 - You can modify the Vagrantfile to add more nodes if needed.
-- Used box is [centos8] (https://portal.cloud.hashicorp.com/vagrant/discover/centos/8) you can change it if needed.
+- Used box is [centos8](https://portal.cloud.hashicorp.com/vagrant/discover/centos/8) you can change it if needed.
 
 Happy learning & Good luck on your exam!
 
